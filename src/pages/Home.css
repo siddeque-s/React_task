@@ -1,0 +1,59 @@
+.megaParentHome{
+background-color: #0b0f1a;
+}
+
+.container {
+  
+  color: #f0f6fc;
+  padding: 50px 20px;
+  min-height: 90vh;
+  text-align: center;
+}
+
+.homeTitle {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #58a6ff;
+}
+
+.parenthome {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: #202c3c;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 9px 19px rgba(69, 63, 63, 0.5);
+  width: 200px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  animation: rotate 7s linear infinite;
+  border-radius: 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(171, 167, 167, 0.7);
+}
+
+.homeDesPara {
+  font-size: 20px;
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: justify;
+  color: #f0f6fc;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
