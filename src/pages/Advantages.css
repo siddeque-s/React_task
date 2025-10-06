@@ -1,0 +1,67 @@
+.MegaParentAdvantages {
+  background-color: #0b0f1a;
+  color: #f0f6fc;
+  min-height: 90vh;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.advantagesTitle {
+  font-size: 36px;
+  font-weight: 700;
+  color: #58a6ff;
+  margin-bottom: 50px;
+}
+
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.parentAdvantaParaImg img {
+  
+  height: 400px;
+  width: 240px;
+  border-radius: 15px;
+  border: 3px solid #58a6ff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.parentAdvantaParaImg img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+}
+
+.parentAdvantaPara {
+  max-width: 650px;
+  text-align: left;
+}
+
+.advantagesDesParag {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #f0f6fc;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.highlightAdvantagesParaS {
+  color: #58a6ff;
+  font-weight: 600;
+}
+
+/* Add spacing for top and bottom */
+.parentofAdvantages {
+  width: 100%;
+  margin-bottom: 60px;
+}

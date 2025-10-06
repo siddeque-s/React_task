@@ -1,0 +1,78 @@
+.MegaParentHistory {
+  background-color: #0b0f1a;
+  color: #f0f6fc;
+  min-height: 90vh;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.historyTitle {
+  font-size: 36px;
+  font-weight: 700;
+  color: #58a6ff;
+  margin-bottom: 50px;
+}
+
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.parentFinderHisImage img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid #58a6ff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+.parentFinderHisImage img:hover {
+  transform: scale(1.05);
+}
+
+.parentFinderHis {
+  max-width: 600px;
+  text-align: left;
+}
+
+.parentFinderHis h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #58a6ff;
+}
+
+.historyDesParaAuthor {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #f0f6fc;
+}
+
+.discriptionsHistory {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.historyDesPara {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #f0f6fc;
+  margin-bottom: 20px;
+}
+
+.highlightHistoryParaS {
+  color: #58a6ff;
+  font-weight: 600;
+}
