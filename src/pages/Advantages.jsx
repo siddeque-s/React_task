@@ -4,17 +4,14 @@ import speed from "../assets/speedn.png"
 import comb from "../assets/compn.png"
 import gear from "../assets/gearn.png"
 import community from "../assets/commn.png"
-// / Example: lightning bolt for fast performance
-// import componentsIcon from "../assets/components.png"; // Example: puzzle piece for components
-// import ecosystemIcon from "../assets/ecosystem.png";   // Example: network/gear icon for ecosystem
-// import mobileIcon from "../assets/mobile.png";     // Example: smartphone icon
-
 
 const Advantages = () => {
   return (
     <div className="MegaParentAdvantages">
       <div className="container">
         <h2 className="advantagesTitle">Key Advantages of React</h2>
+<br />
+<br />
 
        
         <div className='rows parentofAdvantages'>
@@ -87,7 +84,7 @@ const Advantages = () => {
           <div className="col-7 parentAdvantaPara">
             <h3 className="advantagesTitle">5. Declarative & Maintainable</h3>
             <p className="advantagesDesParag">
-              <span className="highlightAdvantagesParaS">React’s</span> declarative syntax makes it simple 
+              <span className="highlightAdvantagesParaS">React's</span> declarative syntax makes it simple 
               to describe how the UI should look for any given state. This predictability 
               reduces bugs, simplifies debugging, and improves long-term code maintenance — 
               a huge win for growing applications.

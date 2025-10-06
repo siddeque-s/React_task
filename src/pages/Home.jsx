@@ -2,71 +2,84 @@ import React from "react";
 import "./Home.css";
 import logo from "../assets/logo.png";
 
-
 const Home = () => {
   return (
     <div className="megaParentHome">
       <div className="container">
-        <h1 className="homeTitle">Welcome to React</h1>
+        <h1 className="homeTitle">Welcome to <span className="highlightHomeParaS">React</span></h1>
+
         <div className="parenthome d-flex justify-content-center">
           <div
             data-aos="flip-left"
             className="card d-flex justify-content-center"
             style={{ width: "18rem" }}
           >
-            <img src={logo} className="card-img-top" alt="..." />
+            <img src={logo} className="card-img-top" alt="" />
           </div>
         </div>
+
         <p className="homeDesPara">
-          React is a popular JavaScript library for building user interfaces,
-          primarily for web applications. Developed and maintained by Facebook,
-          it allows developers to create reusable UI components and efficiently
-          update the DOM using a virtual DOM approach.
+          <span className="highlightHomeParaS">React</span> is a popular 
+          <span className="highlightHomeParaS"> JavaScript library </span> 
+          for building user interfaces, primarily for web applications. Developed and maintained by 
+          <span className="highlightHomeParaS"> Facebook</span>, it allows developers to create 
+          reusable <span className="highlightHomeParaS">UI components</span> and efficiently update 
+          the DOM using a <span className="highlightHomeParaS">Virtual DOM</span> approach.
         </p>
 
         <p className="homeDesPara">
-          React works on a component-based architecture, which means the UI is
-          divided into small, reusable pieces called components. Each component
-          manages its own state and can be composed together to build complex
-          user interfaces.
+          <span className="highlightHomeParaS">React</span> works on a 
+          <span className="highlightHomeParaS"> component-based architecture</span>, 
+          which means the UI is divided into small, reusable pieces called 
+          <span className="highlightHomeParaS"> components</span>. Each component manages its own 
+          <span className="highlightHomeParaS"> state</span> and can be composed together to build 
+          complex user interfaces.
         </p>
 
         <p className="homeDesPara">
-          One of the key features of React is the use of the Virtual DOM.
-          Instead of directly manipulating the real DOM, React updates a virtual
-          representation first, calculates the minimum changes required, and
-          then updates the real DOM efficiently. This results in faster
-          performance and smoother user experiences.
+          One of the key features of <span className="highlightHomeParaS">React</span> is the use of 
+          the <span className="highlightHomeParaS">Virtual DOM</span>. Instead of directly manipulating 
+          the real DOM, React updates a virtual representation first, calculates the minimum changes 
+          required, and then updates the real DOM efficiently. This results in 
+          <span className="highlightHomeParaS"> faster performance </span>and smoother user experiences.
         </p>
 
         <p className="homeDesPara">
-          React is declarative, which means developers describe how the UI
-          should look for a given state, and React ensures the actual UI matches
-          that state. This makes code easier to understand, debug, and maintain.
+          <span className="highlightHomeParaS">React</span> is 
+          <span className="highlightHomeParaS"> declarative</span>, which means developers describe how 
+          the UI should look for a given state, and React ensures the actual UI matches that state. 
+          This makes code <span className="highlightHomeParaS"> easier to understand</span>, 
+          <span className="highlightHomeParaS"> debug</span>, and 
+          <span className="highlightHomeParaS"> maintain</span>.
         </p>
 
         <p className="homeDesPara">
-          Another strength of React is its rich ecosystem. It can be paired with
-          libraries like Redux for state management, React Router for
-          navigation, and testing libraries like Jest. React also integrates
-          smoothly with TypeScript for type safety and with modern front-end
-          build tools like Vite or Webpack.
+          Another strength of <span className="highlightHomeParaS">React</span> is its 
+          <span className="highlightHomeParaS"> rich ecosystem</span>. It can be paired with 
+          libraries like <span className="highlightHomeParaS">Redux</span> for state management, 
+          <span className="highlightHomeParaS">React Router</span> for navigation, and testing tools 
+          like <span className="highlightHomeParaS">Jest</span>. React also integrates smoothly with 
+          <span className="highlightHomeParaS"> TypeScript</span> for type safety and modern front-end 
+          build tools like <span className="highlightHomeParaS">Vite</span> or 
+          <span className="highlightHomeParaS"> Webpack</span>.
         </p>
 
         <p className="homeDesPara">
-          With React, developers can also build mobile applications using React
-          Native, making the skills transferable beyond web development. Its
-          component reusability, performance optimizations, and strong community
-          support have made React one of the most popular front-end libraries in
-          the world.
+          With <span className="highlightHomeParaS">React Native</span>, developers can also build 
+          mobile applications for both iOS and Android using the same knowledge and components as 
+          web apps. Its component reusability, performance optimizations, and strong 
+          <span className="highlightHomeParaS"> community support</span> have made React one of the 
+          most popular front-end libraries in the world.
         </p>
 
         <p className="homeDesPara">
-          In this website, you will explore React’s history, advantages, working
-          principles, and potential future trends in web development. This
-          foundation will help you understand why React is widely adopted and
-          how it empowers developers to create modern, dynamic, and interactive
-          user interfaces.
+          In this website, you will explore React’s 
+          <span className="highlightHomeParaS"> history</span>, 
+          <span className="highlightHomeParaS"> advantages</span>, 
+          <span className="highlightHomeParaS"> working principles</span>, and 
+          <span className="highlightHomeParaS"> future trends</span> in web development. 
+          This foundation will help you understand why React is widely adopted and how it empowers 
+          developers to create modern, dynamic, and interactive user interfaces.
         </p>
       </div>
     </div>

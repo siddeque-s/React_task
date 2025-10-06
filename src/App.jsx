@@ -7,6 +7,8 @@ import History from './pages/History'
 import Advantages from './pages/Advantages'
 import Working from './pages/Working'
 import Future from './pages/Future'
+import Footer from './components/Footer'
+
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
       <Route path='/working' element={<Working/>}/>
       <Route path='future' element={<Future/>}/>
      </Routes>
+     <Footer/>
     </>
   )
 }

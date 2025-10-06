@@ -1,0 +1,55 @@
+.MegaParentWorking {
+  background-color: #0b0f1a;
+  color: #f0f6fc;
+  min-height: 100vh;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.workingTitle {
+  font-size: 38px;
+  font-weight: 700;
+  color: #58a6ff;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.workingSection {
+  background-color: #161b2a;
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 35px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.workingSection:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(88, 166, 255, 0.4);
+}
+
+.workingSubTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: #58a6ff;
+  margin-bottom: 15px;
+}
+
+.workingDesPara {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #e6edf3;
+  text-align: justify;
+}
+
+.highlightWorkingParaS {
+  color: #58a6ff;
+  font-weight: 600;
+}

@@ -1,0 +1,28 @@
+
+.footerTitle {
+  font-size: 28px;
+  font-weight: 700;
+  color: #58a6ff;
+  margin-bottom: 15px;
+}
+
+.footerDesPara {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #f0f6fc;
+  margin-bottom: 10px;
+}
+
+.highlightFooterParaS {
+  color: #58a6ff;
+  font-weight: 600;
+} 
+
+
+.megaParentFooter{
+    background-color: #0f1320;
+    color: #f0f6fc;
+    padding: 40px 20px;
+    border-top: 2px solid #58a6ff;
+    text-align: center;
+}

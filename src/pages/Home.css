@@ -52,6 +52,10 @@ background-color: #0b0f1a;
   text-align: justify;
   color: #f0f6fc;
 }
+.highlightHomeParaS {
+  color: #58a6ff;
+  font-weight: 600;
+}
 
 @keyframes rotate {
   0% { transform: rotate(0deg); }
