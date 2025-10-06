@@ -22,7 +22,7 @@ function Working() {
         <div className="workingSection">
           <h3 className="workingSubTitle">2. Virtual DOM</h3>
           <p className="workingDesPara">
-            React maintains a lightweight copy of the actual DOM called the{" "}
+            React maintains a lightweight copy of the actual DOM called the 
             <span className="highlightWorkingParaS">Virtual DOM</span>. When
             data changes, React compares the current and previous Virtual DOMs
             and updates only the changed elements in the real DOM. This process,
@@ -35,7 +35,7 @@ function Working() {
           <h3 className="workingSubTitle">3. One-Way Data Flow</h3>
           <p className="workingDesPara">
             React follows a one-directional data flow, meaning data is passed
-            from parent components to child components using{" "}
+            from parent components to child components using 
             <span className="highlightWorkingParaS">props</span>. This makes it
             easier to manage data and ensures a predictable flow of
             information. If child components need to send data back, they use
@@ -59,8 +59,8 @@ function Working() {
           <p className="workingDesPara">
             <span className="highlightWorkingParaS">Hooks</span> make functional
             components more powerful by adding features like state and lifecycle
-            management. Common hooks like{" "}
-            <span className="highlightWorkingParaS">useState</span> and{" "}
+            management. Common hooks like 
+            <span className="highlightWorkingParaS">useState</span> and 
             <span className="highlightWorkingParaS">useEffect</span> simplify
             state handling and side-effect management without needing class
             components.
@@ -71,7 +71,7 @@ function Working() {
           <h3 className="workingSubTitle">6. Reconciliation Process</h3>
           <p className="workingDesPara">
             When the state or props of a component change, React determines what
-            parts of the UI need to be updated through a process called{" "}
+            parts of the UI need to be updated through a process called 
             <span className="highlightWorkingParaS">Reconciliation</span>. It
             compares the old and new Virtual DOM trees and efficiently updates
             only the modified parts — making React applications smooth and
