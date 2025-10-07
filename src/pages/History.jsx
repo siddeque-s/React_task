@@ -9,7 +9,7 @@ const History = () => {
         <h1 className="historyTitle">History of React</h1>
 
         <div className='rows'>
-          <div className='col-5 parentFinderHisImage'>
+          <div className='col-4 parentFinderHisImage'>
             <img src={founder} alt="Jordan Walke" />
           </div>
           <div className='col-7 parentFinderHis'>
